@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+   <header class="lg:px-20 lg:pt-5">
+    <nav>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-[#000] font-medium text-[15px]">
+                    <li><a>Home</a></li>
+                    <li><a>Shope</a></li>
+                    <li><a>News</a></li>
+                    <li><a>Contacts</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-4xl lg:block md:block hidden">Bike Dekho</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-[#000] font-medium text-[15px]">
+                <li><a>Home</a></li>
+                    <li><a>Shope</a></li>
+                    <li><a>News</a></li>
+                    <li><a>Contacts</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn btn-error bg-[#E76F51] text-white px-10">Login</a>
+            </div>
+          </div>
+    </nav> <br><br>
+<!-- Carousel design -->
+
+    <div class="carousel pt-12 w-full bg-[#E76F511A]">
+        <div id="slide1" class="carousel-item relative w-full">
+            <div class="md:flex lg:flex justify-between p-16">
+                <div class="lg:w-9/12 pl-4">
+                <h1 class="text-6xl text-[#000] font-bold">Ride-on R15 V4
+                    with Smile</h1><br>
+                <p class="text-zinc-400 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis fugiat repellat itaque omnis esse iste vitae, libero quod?</p><br>
+                <a class="btn btn-error bg-[#E76F51] text-white px-8">Purchase</a>
+                </div>
+                <div>
+                    <img src="images/slider/bike1.png" class="w-[320px] h-[340px]" />
+                </div>
+            </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+            <img src="images/slider/bike2.png" class="w-[400px] h-[360px] lg:w-full lg:h-[500px]" />
+
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+            <img src="images/slider/bike3.png" class="w-[400px] h-[360px] lg:w-full lg:h-[500px]"" />
+
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+            <img src="images/slider/bike4.png" class="w-[400px] h-[360px] lg:w-full lg:h-[500px]"" />
+
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+   </header><br><br><br><br>
+
+   <main class="lg:px-20 lg:pt-10">
+    <section class="text-center items-center">
+        <h1 class="text-4xl text-[#000] font-bold">Fetured Bikes In This Year</h1><br>
+        <p class="text-[#E76F51] font-medium">Best bike collection</p><br>
+        <div class=" block lg:flex items-center justify-between pl-20 ">
+            <img src="images/others/feature-bike.png" alt="" class="w-[180px] h-[220px]"><br>
+            <img src="images/others/feature-bike.png" alt=""class="w-[180px] h-[220px]"><br>
+            <img src="images/others/feature-bike.png" alt="" class="w-[180px] h-[220px]"><br>
+        </div>
+    </section><br><br><br><br>
+
+    <!-- Card section -->
+    <section class=" lg:flex justify-between items-center lg:gap-5">
+        <div class="card w-full lg:w-3/4 lg:h-[530px]  bg-base-100 shadow-xl">
+            <figure><img src="images/others/latest1.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, ab voluptas similique laborum doloremque voluptate autem amet beatae aliquid a nemo nostrum alias.</p><br>
+              <div class="card-actions">
+                <button class="btn btn-error bg-[#E76F51] text-white">Read More</button>
+              </div>
+            </div>
+          </div> <br><br>
+        <div class="card w-full lg:h-[530px] lg:w-3/4  bg-base-100 shadow-xl">
+            <figure><img src="images/others/latest2.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title ">Motorcycles & Scooters</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, ab voluptas similique laborum doloremque voluptate autem amet beatae aliquid a nemo nostrum alias.</p><br>
+              <div class="card-actions">
+                <button class="btn btn-error bg-[#E76F51] text-white">Read More</button>
+              </div>
+            </div>
+          </div> <br><br>
+        <div class="card w-full lg:w-3/4 lg:h-[530px] bg-base-100 shadow-xl">
+            <figure><img src="images/others/latest3.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">2021 Honda CBR500R</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, ab voluptas similique laborum doloremque voluptate autem amet beatae aliquid a nemo nostrum alias.</p><br>
+              <div class="card-actions">
+                <button class="btn btn-error bg-[#E76F51] text-white">Read More</button>
+              </div>
+            </div>
+          </div>
+    </section>
+    <br><br><br><br>
+    <section>
+       <div class="block ml-5 md:flex lg:flex items-center justify-between lg:gap-x-5">
+        <div class=" items-center  text-center w-[320px] h-[260px] ">
+            <img src="images/others/user-1.png" alt="" class=" ml-16 w-[200px] md:ml-10 lg:ml-10"><br>
+            <p  class="text-[#6C6C6C] font-normal">Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+                <br>
+                <!-- Rating -->
+                <div class="flex items-center justify-center">
+                  <img src="images/icons/star-solid.svg" alt="" class="w-5">
+                  <img src="images/icons/star-solid.svg" alt="" class="w-5">
+                  <img src="images/icons/star-solid.svg" alt="" class="w-5">
+                  <img src="images/icons/star-solid.svg" alt="" class="w-5">
+                  <img src="images/icons/star-regular.svg" alt="" class="w-5">
+                </div>
+            <p class="text-[#23A6F0] font-normal">Regina Miles</p>
+            <br>
+            <p>Banker</p>
+        </div><br><br>
+        <div class=" pt-[150px] lg:pt-0 items-center text-center w-[320px] h-[260px]">
+            <img src="images/others/user-2.png" alt="" class=" ml-16 w-[200px] md:ml-10 lg:ml-10"><br>
+            <p  class="text-[#6C6C6C] font-normal">Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p><br>
+                <!-- rating -->
+                <div class="flex items-center justify-center">
+                  <img src="images/icons/star-solid.svg" alt="" class="w-5">
+                  <img src="images/icons/star-solid.svg" alt="" class="w-5">
+                  <img src="images/icons/star-solid.svg" alt="" class="w-5">
+                  <img src="images/icons/star-half-stroke-solid.svg" alt="" class="w-5">
+                  <img src="images/icons/star-regular.svg" alt="" class="w-5">
+                </div> <br>
+            <p class="text-[#23A6F0] font-normal">Regina Miles</p><br>
+            <p>Banker</p>
+        </div><br><br>
+        <div class=" pt-[300px] lg:pt-0 items-center text-center w-[320px] h-[260px] ">
+            <img src="images/others/user-3.png" alt="" class=" ml-16  w-[200px] md:ml-10 lg:ml-10"><br>
+            <p  class="text-[#6C6C6C] font-normal">Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p><br>
+                <!-- rating -->
+                <div class="flex items-center justify-center">
+                  <img src="images/icons/star-solid.svg" alt="" class="w-5">
+                  <img src="images/icons/star-solid.svg" alt="" class="w-5">
+                  <img src="images/icons/star-solid.svg" alt="" class="w-5">
+                  <img src="images/icons/star-regular.svg" alt="" class="w-5">
+                  <img src="images/icons/star-regular.svg" alt="" class="w-5">
+                </div> <br>
+            <p class="text-[#23A6F0] font-normal">Regina Miles</p><br>
+            <p>Banker</p>
+        </div>
+       </div>
+    </section>
+    <br><br><br><br>
+    <!-- FAQ Section -->
+    <section class="mt-[400px] lg:pt-[160px]">
+      <h1 class="text-5xl text-[#0D0925] font-bold text-center">Frequently Asked <span class="text-[#E76F51]">Questions</span></h1><br><br>
+  <div class="lg:flex justify-between items-center pt-10">
+        <div>
+            <img src="images/others/faq.png" alt="" class="ml-24 lg:ml-0 md:ml-0 w-1/2 lg:w-full ">
+        </div><br>
+        <!-- FAQ  -->
+    <div>
+        <div class="join join-vertical lg:w-[500px]">
+      <div class="collapse collapse-arrow join-item border border-base-300">
+        <input type="radio" name="my-accordion-4" checked="checked" /> 
+        <div class="collapse-title text-xl font-medium">
+          What are the most important things I should
+          know about riding a bike?
+        </div>
+        <div class="collapse-content"> 
+          <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow join-item border border-base-300">
+        <input type="radio" name="my-accordion-4" /> 
+            <div class="collapse-title text-xl font-medium">
+              How can I tell if my helmet is old and I need a 
+              new one?
+        </div>
+        <div class="collapse-content"> 
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum cumque eos vero in dolore magni! Unde animi doloremque necessitatibus numquam rerum. Saepe velit nemo unde reprehenderit recusandae cupiditate, ratione sint.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow join-item border border-base-300">
+        <input type="radio" name="my-accordion-4" /> 
+        <div class="collapse-title text-xl font-medium">
+          My bike has been in storage is it safe to ride?
+        </div>
+        <div class="collapse-content"> 
+          <p>Rem ipsum atque molestias suscipit officiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptas facere tenetur enim culpa omnis consequatur possimus quis et reiciendis, harum natus necessitatibus pariatur </p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow join-item border border-base-300">
+        <input type="radio" name="my-accordion-4" /> 
+        <div class="collapse-title text-xl font-medium">
+          What rules should I follow when riding my bike?
+        </div>
+        <div class="collapse-content"> 
+          <p>Garum natus necessitatibus pariatur .Rem ipsum atque molestias suscipit officiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptas facere tenetur enim culpa omnis consequatur possimus quis et reiciendis,  </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </section>
+  </main><br><br>
+
+  <!-- Footer section -->
+  <footer class=" h-auto p-10 bg-black text-white md:h-[250px] lg:h-[240px] lg:p-0 md:p-0">
+    <div class="md:flex lg:flex justify-around items-center pt-10">
+      <div>
+        <div class="flex  gap-3">
+        <p>Download </p>
+        <p>Licences</p>
+        </div><br>
+        <div>
+          <ul class="grid grid-cols-2 lg:flex md:flex gap-3">
+            <li><a href="">About</a></li>
+            <li><a href="" >Careers</a></li>
+            <li><a href="" ">Features</a></li>
+            <li><a href="" ">Pricing</a></li>
+            <li><a href="" >Help</a></li>
+            <li><a href="">Privacy Policy</a></li>
+          </ul><br><br>
+          <p class=" hidden lg:block md:block">Copyright © 2024 All rights reserved by Nadim Mostofa</p>
+        </div>
+
+      </div>
+      <br>
+      <div>
+        <h1>Get the App</h1><br><br>
+        <img src="images/others/android.png" alt="" class="w-[120px]"><br>
+        <img src="images/others/ios.png" alt="" class="w-[120px]"><br><br>
+        <p class=" block lg:hidden md:hidden text-center">Copyright © 2024 All rights reserved by Nadim Mostofa</p>
+      </div>
+
+    </div>
+  </footer>
+</body>
+</html>
